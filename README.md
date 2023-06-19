@@ -1,3 +1,5 @@
+## College Allotment System
+
 The front-end for the project is displayed on a mobile application built using flutter and dart,
 state management for the same has been done using riverpod.
 
@@ -53,6 +55,7 @@ the list of students allocated to their college and the total allocations done i
 In order to run the application, you must first ensure that your MySQL connection settings have
 been reset according to the port connected to the app. In order to do this, please right click on
 the connection on your workbench and click on ‘Edit Connection..’
+
 ![image](https://github.com/ai-r-ia/College_Allotment_System/assets/87983584/e984d9c9-d275-40a8-be4f-1db2a05dd6dd)
 
 This will open a dialog box with your current connection configuration. Please ensure all entries
@@ -73,7 +76,9 @@ SET PASSWORD FOR 'root'@'localhost' = ‘password’;
 FLUSH privileges;
 If the commands given above are not compatible with your MySQL version then please check
 the following links to find commands specific toyour version.
+
 https://dev.mysql.com/doc/refman/8.0/en/alter-user.html
+
 https://www.javatpoint.com/change-mysql-user-password
 
 **Note:** Please ensure your MySQL server is running when using the app and that you have run the script named ‘masterScript.sql’ beforehand to create the database and fill relevant entries.
