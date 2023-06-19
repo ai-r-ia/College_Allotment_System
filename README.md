@@ -1,4 +1,4 @@
-## College Allotment System
+# College Allotment System
 
 The front-end for the project is displayed on a mobile application built using flutter and dart,
 state management for the same has been done using riverpod.
@@ -14,7 +14,7 @@ and data manipulation, called sql_auth.dart and sql_data.dart respectively.
 The app allows both the students and college admins to login and access user-specific pages.
 The flow of the app is as shown:
 
-# Student login:
+## Student login:
 <!-- <img src="https://github.com/favicon.ico](https://github.com/ai-r-ia/College_Allotment_System/assets/87983584/ac64be85-06e9-4d62-bb86-17151b161652" width="48"/> -->
 ![image](https://github.com/ai-r-ia/College_Allotment_System/assets/87983584/ac64be85-06e9-4d62-bb86-17151b161652)
 ![image](https://github.com/ai-r-ia/College_Allotment_System/assets/87983584/0ef499bc-c563-486e-93a7-8f1f7a048c21)
@@ -31,7 +31,7 @@ Upon successful login or registration,the student dashboard is visible, wherein 
 set their college allotment preference or view their profile and see their current preference list or
 update their details.
 
-# College Admin Login:
+## College Admin Login:
 ![image](https://github.com/ai-r-ia/College_Allotment_System/assets/87983584/63c4b63b-242a-4185-b1fb-f15ed3d26890)
 ![image](https://github.com/ai-r-ia/College_Allotment_System/assets/87983584/8fdeb8e9-2f90-44ae-b166-8c8d09edbf15)
 ![image](https://github.com/ai-r-ia/College_Allotment_System/assets/87983584/8bb31b74-33d2-4bd3-bd48-e9be7e400072)
@@ -51,7 +51,7 @@ the list of students allocated to their college and the total allocations done i
 
 
 
-# Instructions to run the application
+## Instructions to run the application
 In order to run the application, you must first ensure that your MySQL connection settings have
 been reset according to the port connected to the app. In order to do this, please right click on
 the connection on your workbench and click on ‘Edit Connection..’
